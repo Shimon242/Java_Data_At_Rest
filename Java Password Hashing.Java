@@ -18,6 +18,10 @@ class GFG {
         // Getting the hashvalue of object and the variable
         int hashValue_password_attempt = password_attempt.hashCode();
         int hashValue_correct_password = correct_password.hashCode();
+
+	// Print Hashes
+        System.out.println(hashValue_password_attempt);
+        System.out.println(hashValue_correct_password);
  
         // Hash value is same whether is created from
         // variable or object.
