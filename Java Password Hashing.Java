@@ -13,7 +13,7 @@ class GFG {
         String password_attempt = scn.next();
 
 	    // Store correct password
-	    String correct_password = “Password123”;
+	    String correct_password = "Password123";
  
         // Getting the hashvalue of object and the variable
         int hashValue_password_attempt = password_attempt.hashCode();
