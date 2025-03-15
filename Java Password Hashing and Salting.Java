@@ -23,10 +23,11 @@ class GFG {
         String Salted_Password = (user_password + salt2);
         System.out.println(Salted_Password);
         int Hashed_Salted_Password = Salted_Password.hashCode();
- 
-        // Getting the hashvalue of object and the variable
-        //int hashValue = password_attempt.hashCode();
-        //int hashValue_correct_password = correct_password.hashCode();
+
+	// Comparison of Hashes
+        int Hashed_Password = user_password.hashCode();
+        System.out.println(Hashed_Password);
+        System.out.println(Hashed_Salted_Password);
  
     }
 }
